@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rocketseat Music Player</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="root">
+        <section id="card-player">
+            <div class="main-information">
+                <div class="audio-cover">
+                    <img src="./assets/audio-cover.png" alt="Capa do Áudio">
+                </div>
+                <div class="audio-information">
+                    <h2>Acorda Devinho</h2>
+                    <h3>Banda Rocketseat</h3>
+                </div>
+            </div>
+            <div class="audio-actions">
+                <button type="button">
+                    <img src="./assets/step-back.svg" alt="Anterior">
+                </button>
+                <button type="button">
+                    <img src="./assets/play.svg" alt="Play">
+                </button>
+                <button type="button">
+                    <img src="./assets/step-forward.svg" alt="Próxima">
+                </button>
+            </div>
+            <div class="audio-tracker">
+                <div class="progress"></div>
+                <div class="progress-information">
+                    <span class="duration">03:20</span>
+                    <span class="remaining">00:12</span>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
